@@ -16,12 +16,10 @@ def calculate_similarity_score(left_column, right_column):
     return similarity_score
 
 def main():
-    # Test with small.txt
     left_list, right_list = read_input('input/small.txt')
     similarity_score = calculate_similarity_score(left_list, right_list)
     print(f'Similarity score for small.txt: {similarity_score}')
 
-    # Test with input.txt
     left_list, right_list = read_input('input/input.txt')
     similarity_score = calculate_similarity_score(left_list, right_list)
     print(f'Similarity score for input.txt: {similarity_score}')

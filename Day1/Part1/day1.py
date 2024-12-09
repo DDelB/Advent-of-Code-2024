@@ -15,12 +15,10 @@ def calculate_total_distance(left_column, right_column):
     return total_distance
 
 def main():
-    # Test with small.txt
     left_list, right_list = read_input('input/small.txt')
     total_distance = calculate_total_distance(left_list, right_list)
     print(f'Total distance for small.txt: {total_distance}')
 
-    # Test with input.txt
     left_list, right_list = read_input('input/input.txt')
     total_distance = calculate_total_distance(left_list, right_list)
     print(f'Total distance for input.txt: {total_distance}')
