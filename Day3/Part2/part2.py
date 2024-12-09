@@ -24,3 +24,5 @@ file_path = 'input/small'
 result = extract_and_multiply(file_path)
 print(f"The total sum of all enabled multiplications is: {result}")
 
+#hello
+
